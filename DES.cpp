@@ -191,12 +191,12 @@ void keyCreation(bitset<64> key){
         }
         
         for(int i=0;i<16;i++){
-        	 bitset<28> tempL;
-       	 bitset<28> tempR;
-       	 bitset<56> tempK;
-       	 bitset<48> tempKF;
-       	 tempL=keyL;
-       	 tempR=keyR;
+        	bitset<28> tempL;
+       		bitset<28> tempR;
+       		bitset<56> tempK;
+       		bitset<48> tempKF;
+       		tempL=keyL;
+       	 	tempR=keyR;
         	if(i==0 || i==1 || i==8 || i==15){
         		tempL=(tempL<<=1)|(tempL>>27);
         		tempR=(tempR<<=1)|(tempR>>27);
