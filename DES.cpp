@@ -34,6 +34,8 @@ using namespace std;
 #define rep(i,s,n,d) for(long long i=s;i<n;i=i+d)
 //A bitset vector to save the subkeys
 vector<bitset<48>>keyRound(20);
+
+//These tables and boxes have been from the internet
 //Initial permutation table
 vi ip  { 58, 50, 42, 34, 26, 18, 10, 2, 
                              60, 52, 44, 36, 28, 20, 12, 4, 
